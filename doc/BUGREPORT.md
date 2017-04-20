@@ -25,7 +25,7 @@ The "Last Name" column reads "First" and the "First Name" column reads "Last".
 ###### Expected Result:
 The "Last Name" column should read "Last" and the "First Name" column should read "First".
 ###### Screenshot:
-![Preview](https://cl.ly/110D0g0N1Q46)
+![Preview](images/screenshot-bug1.png)
 
 
 ##### Bug #2: "Dependants" is misspelled in the "Add Employee" form<
@@ -40,7 +40,7 @@ The last field names on the form reads "Dependants".
 ###### Expected Result:
 The label for the last field should be spelled: "Dependents".
 ###### Screenshot:
-![Preview](https://cl.ly/2v0t0a2v0f40)
+![Preview](images/screenshot-bug2.png)
 
 
 ##### Bug #3: Content should be made gender neutral
@@ -55,7 +55,7 @@ The header on the "Add Employee" form reads: "Add Employee & His dependents".
 ###### Expected Result:
 The header on the "Add Employee" form should be renamed to either "Add Employee & Dependents" or ""Add Employee & His/Her dependents".
 ###### Screenshot:
-![Preview](https://cl.ly/3Y1B3d38400A)
+![Preview](images/screenshot-bug3.png)
 
 
 ##### Bug #4: There is no validation for the values entered in the "Add Employee" form
@@ -74,7 +74,7 @@ The empoyee is saved as it was entered.
 ###### Expected Result:
 Validation should take place on each value entered. First name and last name should only contain letters and no special characters (with the exception of hyphen and apostrophe). The dependent value should be limited to positive integers and 0. In addtion, first name and last name should be limited to a fixed number of characters (35 for example).
 ###### Screenshot:
-![Preview](https://cl.ly/302k322s2h0u)
+![Preview](images/screenshot-bug4.png)
 
 
 ##### Bug #5: All employee ID's are set to "1"
@@ -93,7 +93,7 @@ In the Employee table, all employees have the same ID which is "1"
 ###### Expected Result:
 After each submission, the employee ID should auto increment.
 ###### Screenshot:
-![Preview](https://cl.ly/1x0j3N0f452B)
+![Preview](images/screenshot-bug5.png)
 
 
 ##### Bug #6: When shrinking the window size the "dependents" value doesn't remain visible
@@ -111,11 +111,5 @@ The value entered for the "Dependents" field becomes invisible.
 ###### Expected Result:
 The value entered for the "Dependents" field should remain visible visible for smaller window sizes.
 ###### Screenshot:
-![Preview]https://cl.ly/3d1V1g0p0v2O)
-
-
-
-####Screenshot:
-![Mislabeled](images/last_name_column_has_first_name.png)
-
+![Preview](images/screenshot-bug6.png)
 
