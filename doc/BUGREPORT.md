@@ -27,6 +27,7 @@ The "Last Name" column should read "Last" and the "First Name" column should rea
 ###### Screenshot:
 ![Preview](images/screenshot-bug1.png)
 
+* * *
 
 ##### Bug #2: "Dependants" is misspelled in the "Add Employee" form<
 ###### Severity: Low
@@ -42,6 +43,7 @@ The label for the last field should be spelled: "Dependents".
 ###### Screenshot:
 ![Preview](images/screenshot-bug2.png)
 
+* * *
 
 ##### Bug #3: Content should be made gender neutral
 ###### Severity: Low
@@ -57,6 +59,7 @@ The header on the "Add Employee" form should be renamed to either "Add Employee 
 ###### Screenshot:
 ![Preview](images/screenshot-bug3.png)
 
+* * *
 
 ##### Bug #4: There is no validation for the values entered in the "Add Employee" form
 ###### Severity: Medium
@@ -76,6 +79,7 @@ Validation should take place on each value entered. First name and last name sho
 ###### Screenshot:
 ![Preview](images/screenshot-bug4.png)
 
+* * *
 
 ##### Bug #5: All employee ID's are set to "1"
 ###### Severity: High
@@ -95,6 +99,7 @@ After each submission, the employee ID should auto increment.
 ###### Screenshot:
 ![Preview](images/screenshot-bug5.png)
 
+* * *
 
 ##### Bug #6: When shrinking the window size the "dependents" value doesn't remain visible
 ###### Severity: Low
