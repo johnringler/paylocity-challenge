@@ -91,6 +91,5 @@ After all the tests are completed, an HTML report [cucumber-html-reporter](https
 ### Known Bugs
 
 A list of defects found while testing the application can be found in the following document:
+
 [BUGREPORT.md](doc/BUGREPORT.md)
-
-
