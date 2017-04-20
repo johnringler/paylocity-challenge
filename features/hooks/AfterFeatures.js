@@ -1,11 +1,7 @@
 const {defineSupportCode} = require('cucumber');
-
 var reporter = require('cucumber-html-reporter');
 
-defineSupportCode(({
-  setDefaultTimeout,
-  registerHandler
-}) => {
+defineSupportCode(({setDefaultTimeout, registerHandler}) => {
   setDefaultTimeout(30 * 1000);
   registerHandler('AfterFeatures', function () {
 

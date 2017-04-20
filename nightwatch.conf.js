@@ -3,8 +3,7 @@
 require('nightwatch-cucumber')({
   cucumberArgs: [
     '--require', 'features/step_definitions',
-    // '--require', '/Users/jringler/Code/paylocity/features/hooks/system-hooks.js',
-    '--require', 'timeout.js',
+    '--require', 'features/hooks/',
     '--format', 'pretty',
     '--format', 'json:reports/cucumber.json',
     '--format-options', '{"colorsEnabled":false}',
