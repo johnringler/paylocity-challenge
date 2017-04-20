@@ -29,7 +29,7 @@ The "Last Name" column should read "Last" and the "First Name" column should rea
 
 * * *
 
-##### Bug #2: "Dependants" is misspelled in the "Add Employee" form<
+##### Bug #2: "Dependants" is misspelled in the "Add Employee" form
 ###### Severity: Low
 
 ###### Steps to reproduce:
@@ -102,7 +102,7 @@ After each submission, the employee ID should auto increment.
 * * *
 
 ##### Bug #6: When shrinking the window size the "dependents" value doesn't remain visible
-###### Severity: Low
+###### Severity: Medium
 
 ###### Steps to reproduce:
 1. Log in as a user
