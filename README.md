@@ -4,9 +4,9 @@ This guide describes the custom framework that was built in order to automate so
 
 ## Table of contents
 
-* [Description of Framework](#framework)
-* [Technology Stack](#tech-stack)
-* [Test Organization](#test-org)
+* [Description of Framework](#description-of-framework)
+* [Technology Stack](#technology-stack)
+* [Tests Organization](#tests-organization)
 * [Installation and Setup](#setup)
 * [Run Tests](#run-tests)
 
@@ -33,7 +33,7 @@ This guide describes the custom framework that was built in order to automate so
 - [selenium-server](https://www.npmjs.com/package/selenium-server) (Node wrapper for Selenium)
 
 
-## Test Organization
+## Tests Organization
 
 *  ###### Feature Files
 A .feature file is supposed to describe a single feature of the system, or a particular aspect of a feature. It's just a way to provide a high-level description of a software feature, and to group related scenarios.
@@ -84,6 +84,6 @@ The tests will run against Google Chrome with the window size that is set in the
 After all the tests are completed, an HTML report [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter)  will open in a new tab showing the details of the test run. The **./reports/* folder will contain a JSON file and the resulting HTML document that serve as the report. Screenshots of the browser during the test execution can also be found under the **./reports/screenshots/** folder.
 
 ###### Sample CucumberJS Report:
-![Preview](images/screenshot-cucumber-report.png)
+![Preview](doc/images/screenshot-cucumber-report.png)
 
 
