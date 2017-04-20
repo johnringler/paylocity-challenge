@@ -60,9 +60,11 @@ Note: Selenium Standalone Server and chromeDriver are in the repository so they 
 
 * ###### Installation:
 Open a terminal and type:
+
 ```git clone https://github.com/jringler/paylocity-challenge.git```
 
 From the **./paylocity-challenge** folder, install the dependencies by typing:
+
 ```npm install```
 
 * ###### Setup:
