@@ -55,7 +55,7 @@ Nightwatch provides the standard *BeforeFeatures/AfterFeatures* and *BeforeScena
 ### Installation and Setup
 
 * ###### Requirements:
-The automation test suite can be executed with a simple command line tool using NPM. NodeJS is pre-required (Node comes with npm installed) and Java JDK must be installed.
+The automation test suite can be executed with a simple command line tool using [npm](https://www.npmjs.com/). NodeJS is pre-required (Node comes with npm installed) and Java JDK must be installed.
 Note: Selenium Standalone Server and chromeDriver are in the repository so they do not need to be installed separately.
 
 * ###### Installation:
