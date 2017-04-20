@@ -1,11 +1,10 @@
 const {defineSupportCode} = require('cucumber');
-var reporter = require('cucumber-html-reporter');
+const reporter = require('cucumber-html-reporter');
 
 defineSupportCode(({setDefaultTimeout, registerHandler}) => {
   setDefaultTimeout(30 * 1000);
   registerHandler('AfterFeatures', function () {
-
-    var options = {
+    const options = {
       theme: 'bootstrap',
       jsonFile: 'reports/cucumber.json',
       output: 'reports/cucumber.html',
@@ -13,8 +12,7 @@ defineSupportCode(({setDefaultTimeout, registerHandler}) => {
       launchReport: true,
       storeScreenShots: true,
     };
-
     return reporter.generate(options);
   });
 
-})
+});

@@ -1,5 +1,3 @@
-// nightwatch.conf.js
-
 require('nightwatch-cucumber')({
   cucumberArgs: [
     '--require', 'features/step_definitions',

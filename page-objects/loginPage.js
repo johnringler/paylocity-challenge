@@ -1,5 +1,3 @@
-//page-objects/login-page.js
-
 module.exports = {
   url: process.env.URL,
   elements: {

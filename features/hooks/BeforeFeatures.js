@@ -4,4 +4,4 @@ defineSupportCode(({setDefaultTimeout, registerHandler}) => {
   registerHandler('BeforeFeatures', function () {
   });
 
-})
+});

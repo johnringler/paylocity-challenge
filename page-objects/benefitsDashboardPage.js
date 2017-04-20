@@ -1,6 +1,4 @@
-//page-objects/benefits-dashboard.js
-
-var dashboardCommands = {
+const dashboardCommands = {
   checkValues: function(row, salary, dependents, grossPay, benefitCost, netPay) {
     return this.api.pause(1000)
     .useXpath().verify.containsText('//tbody/tr['+row+']/td[4]', salary)
