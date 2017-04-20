@@ -59,8 +59,10 @@ The automation test suite can be executed with a simple command line tool using 
 Note: Selenium Standalone Server and chromeDriver are in the repository so they do not need to be installed separately.
 
 * ###### Installation:
-Open a terminal and type: git clone https://github.com/jringler/paylocity-challenge.git
-From the "./paylocity-challenge" folder, install the dependencies by typing:
+Open a terminal and type:
+```git clone https://github.com/jringler/paylocity-challenge.git```
+
+From the **./paylocity-challenge** folder, install the dependencies by typing:
 ```npm install```
 
 * ###### Setup:
