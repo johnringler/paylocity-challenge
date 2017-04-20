@@ -85,10 +85,10 @@ The tests will run against Google Chrome with the window size that is set in the
 After all the tests are completed, an HTML report [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter)  will open in a new tab showing the details of the test run. The **./reports/* folder will contain a JSON file and the resulting HTML document that serve as the report. Screenshots of the browser during the test execution can also be found under the **./reports/screenshots/** folder.
 
 ###### Execution Preview:
-![Preview](doc/images/)
+![Preview](doc/images/ScreenRecording.gif)
 
 ###### Sample CucumberJS Report:
-![Preview](doc/images/ScreenRecording.gif)
+![Preview](doc/images/screenshot-cucumber-report.png)
 
 
 ### Known Bugs
