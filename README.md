@@ -1,6 +1,6 @@
 ##  Paylocity QA Challenge
 
-This guide describes the custom framework that was built in order to automate some of test scenarios featured in the QA Challenge document and explains how to set it up in order to run the tests on a local machine and visualize the results.
+This guide describes the custom framework that was built in order to automate some of test scenarios featured in the [QA Challenge document](doc/TestingChallengeOverview.docx) and explains how to set it up in order to run the tests on a local machine and visualize the results.
 
 ### Table of contents
 
