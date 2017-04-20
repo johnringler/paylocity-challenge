@@ -1,8 +1,8 @@
-#  Paylocity QA Challenge
+##  Paylocity QA Challenge
 
 This guide describes the custom framework that was built in order to automate some of test scenarios featured in the QA Challenge document and explains how to set it up in order to run the tests on a local machine and visualize the results.
 
-## Table of contents
+### Table of contents
 
 * [Description of Framework](#description-of-framework)
 * [Technology Stack](#technology-stack)
@@ -11,7 +11,7 @@ This guide describes the custom framework that was built in order to automate so
 * [Run Tests](#run-tests)
 * [Known Bugs](#known-bugs)
 
-## Description of Framework
+### Description of Framework
 
 * As the test cases in the Challenge document are essentially written as Acceptance Tests, the framework that was chosen to automate these tests is Cucumber, a popular testing framework that supports Behavior Driven Development (BDD) which is ideal to create automation of acceptance tests. It offers a way to write tests that anybody can understand, regardless of their technical knowledge.
 
@@ -24,8 +24,7 @@ This guide describes the custom framework that was built in order to automate so
 * The tests are written using Nightwatch.js,an automated testing framework for web applications and written in Node.js. It uses the WebdDriver API.
 
 
-
-## Technology Stack
+### Technology Stack
 
 - [NodeJS](https://nodejs.org)
 - [NightwatchJS](http://nightwatchjs.org/) (Wrapper over Selenium API)
@@ -34,14 +33,15 @@ This guide describes the custom framework that was built in order to automate so
 - [selenium-server](https://www.npmjs.com/package/selenium-server) (Node wrapper for Selenium)
 
 
-## Tests Organization
+### Tests Organization
 
 *  ###### Feature Files
 A .feature file is supposed to describe a single feature of the system, or a particular aspect of a feature. It's just a way to provide a high-level description of a software feature, and to group related scenarios.
 A feature has two basic elements -- a header and one or more scenarios.
-- *Header*: A header has three basic elements -- the Feature: keyword, a name (on the same line) and a description spans multiple lines.
-- *Scenario*: A scenario is a concrete example that illustrates a business rule. It consists of a list of steps.
-Scenarios logically flow as a series of steps: Given --> When --> Then.
+
+1. *Header*: A header has three basic elements -- the Feature: keyword, a name (on the same line) and a description spans multiple lines.
+2. *Scenario*: A scenario is a concrete example that illustrates a business rule. It consists of a list of steps.
+Scenarios logically flow as a series of steps: **Given --> When --> Then**.
 
 * ###### Step-definitions
 A step-definition is a small piece of code with a pattern (this framework uses RegEx) attached to it. The pattern is used to link the step definition to all the matching steps, and the code is what Cucumber will execute when it sees a Gherkin step.
@@ -52,7 +52,7 @@ The traditional manner in which elements on a page are accessed is through a Pag
 * ###### Hooks
 Nightwatch provides the standard *BeforeFeatures/AfterFeatures* and *BeforeScenario/AfterScneario* hooks to be used in the tests.
 
-## Installation and Setup
+### Installation and Setup
 
 * ###### Requirements:
 The automation test suite can be executed with a simple command line tool using NPM. NodeJS is pre-required (NodeJS
@@ -74,7 +74,7 @@ export PASSWORD="Test1234"
 
 The entire nightwatch configuation is set in the ***./nightwatch.conf.js*** file. There should not be a need to modidy this file but ensure that the path to **selenium-server-standalone.jar** and **chromedriver** are correct.
 
-## Run Tests
+### Run Tests
 
 Different environment variables can be entered in a new .env file in the ***./env/*** folder.
 To use the default ***./env/test.env*** file, the tests can be executed by simply typing the following command in the terminal:
@@ -88,7 +88,7 @@ After all the tests are completed, an HTML report [cucumber-html-reporter](https
 ![Preview](doc/images/screenshot-cucumber-report.png)
 
 
-## Known Bugs
+### Known Bugs
 
 A list of defects found while testing the application can be found in the following document:
 [BUGREPORT.md](doc/BUGREPORT.md)
