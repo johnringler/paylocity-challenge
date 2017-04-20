@@ -1,5 +1,7 @@
+const pathDir = require('path');
+
 module.exports = {
-  url: process.env.URL,
+  url: 'file://' + (pathDir.resolve(__dirname, process.env.URL)).replace('/page-objects', ''),
   elements: {
     body: 'body',
     username: 'input[name="form-username"]',
