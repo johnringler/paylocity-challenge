@@ -7,8 +7,9 @@ This guide describes the custom framework that was built in order to automate so
 * [Description of Framework](#description-of-framework)
 * [Technology Stack](#technology-stack)
 * [Tests Organization](#tests-organization)
-* [Installation and Setup](#setup)
+* [Installation and Setup](#installation-and-setup)
 * [Run Tests](#run-tests)
+* [Known Bugs](#known-bugs)
 
 ## Description of Framework
 
@@ -85,5 +86,11 @@ After all the tests are completed, an HTML report [cucumber-html-reporter](https
 
 ###### Sample CucumberJS Report:
 ![Preview](doc/images/screenshot-cucumber-report.png)
+
+
+## Known Bugs
+
+A list of defects found while testing the application can be found in the following document:
+[BUGREPORT.md](doc/BUGREPORT.md)
 
 
