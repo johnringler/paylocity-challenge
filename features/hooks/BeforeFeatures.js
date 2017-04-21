@@ -1,7 +1,7 @@
-const {defineSupportCode} = require('cucumber');
+const { defineSupportCode } = require('cucumber');
 
-defineSupportCode(({setDefaultTimeout, registerHandler}) => {
-  registerHandler('BeforeFeatures', function () {
+defineSupportCode(({ setDefaultTimeout, registerHandler }) => {
+  registerHandler('BeforeFeatures', () => {
   });
 
 });
